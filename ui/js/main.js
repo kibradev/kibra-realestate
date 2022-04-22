@@ -17,7 +17,7 @@ $(function() {
 $(document).on('click','#LoginPassword',function(e){
     e.preventDefault();
     $(".kibra-emlak-password").hide();
-    $.post('http://kibra-emlakv2/PasswordToStash', JSON.stringify({
+    $.post('http://kibra-realestate/PasswordToStash', JSON.stringify({
         Password: $("#PasswordInput").val()
     }));
     $.post('http://kibra-emlakv2/ClosePasswordMenu', JSON.stringify({}));
@@ -25,28 +25,28 @@ $(document).on('click','#LoginPassword',function(e){
 
 $(document).on('click','#ParaYatir',function(e){
     e.preventDefault();
-    $.post('http://kibra-emlakv2/ParaYatir', JSON.stringify({
+    $.post('http://kibra-realestate/ParaYatir', JSON.stringify({
         KacPara: $("#YatirilanMiktar").val()
     }));
 })
 
 $(document).on('click','#ChangePassword',function(e){
     e.preventDefault();
-    $.post('http://kibra-emlakv2/EmlakPasswordChange', JSON.stringify({
+    $.post('http://kibra-realestate/EmlakPasswordChange', JSON.stringify({
         Password: $("#OrospuSedaTurkcemiz").val()
     }));
 })
 
 $(document).on('click','#ParaCek',function(e){
     e.preventDefault();
-    $.post('http://kibra-emlakv2/ParaCek', JSON.stringify({
+    $.post('http://kibra-realestate/ParaCek', JSON.stringify({
         KacPara: $("#CekilenMiktar").val()
     }));
 })
 
 $(document).on('click','#AklaPara',function(e){
     e.preventDefault();
-    $.post('http://kibra-emlakv2/BlackMoneyWash', JSON.stringify({
+    $.post('http://kibra-realestate/BlackMoneyWash', JSON.stringify({
         KacPara: $("#BlackMoneyCount").val()
     }));
     $.post('http://kibra-emlakv2/CloseEmlakMenu', JSON.stringify({}));
@@ -54,7 +54,7 @@ $(document).on('click','#AklaPara',function(e){
 
 $(document).on('click','#ClosePsa',function(e){
     e.preventDefault();
-    $.post('http://kibra-emlakv2/ClosePasswordMenu', JSON.stringify({}));
+    $.post('http://kibra-realestate/ClosePasswordMenu', JSON.stringify({}));
 })
 
 $(document).on('click','#EmlakDegistirMenu',function(){
@@ -87,12 +87,12 @@ $(document).on('click','#ChangeNameEmlaq',function(e){
     $.post('http://kibra-emlakv2/ChangeNameEmlak', JSON.stringify({
         EmlakName: $("#OrospuSeda").val()
     }));
-    $.post('http://kibra-emlakv2/CloseEmlakMenu', JSON.stringify({}));
+    $.post('http://kibra-realestate/CloseEmlakMenu', JSON.stringify({}));
 })
 
 document.onkeyup = function(data){
     if (data.which == 27){
         $('.kibra-emlak-managament-menu').fadeOut(500);
-        $.post('http://kibra-emlakv2/CloseEmlakMenu', JSON.stringify({}));
+        $.post('http://kibra-realestate/CloseEmlakMenu', JSON.stringify({}));
     }
 }
