@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Kibra Houses</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <div class="kibra-emlak-password">
+            <button id="ClosePsa" class="kibra-emlak-psw-close">X</button>
+            <h1 class="password-header">Emlak Kasa Şifresini Girin</h1>
+            <input type="number" id="PasswordInput" type="text" class="password-input" placeholder="Kasa Şifresini Girin" required>
+            <button id="LoginPassword" class="login-kasa-button"><span class="material-icons">login</span></button>
+        </div>
+
+        <div class="kibra-emlak-managament-menu">
+            <div class="kibra-emlak-sidebar">
+                <button id="MainSayfa" class="kibra-emlak-menu-opt">Emlak Para İşlemleri</button>
+                <button id="EmlakDegistirMenu" class="kibra-emlak-menu-opt">Emlak Ayarları</button>
+                <button id="SalesHouses" class="kibra-emlak-menu-opt">Satılık Evler</button>
+                <button id="BlackMoneyWash" class="kibra-emlak-menu-opt">Karapara Akla</button>
+            </div>
+
+            <div class="kibra-emlak-para-islem">
+                <h1 class="paramoney">Kasadaki Paranız: $<span id="KasaPara">15000000</span></h1>
+                <div class="para-islem-menu">
+                    <span style="position:relative; left: 35%; top: 5%; color: rgb(207, 207, 207); font-size: 70px; text-align: center;" class="material-icons">attach_money</span>
+                    <h1 class="para-islem-header">Kasaya Para Yatır</h1>
+                    <input id="YatirilanMiktar" type="number" class="input-emlak" placeholder="Miktar Girin">
+                    <button id="ParaYatir" class="button-paracekyatir">Para Yatır</button>
+                </div>
+
+                <div class="para-islem-menu">
+                    <span style="position:relative; left: 35%; top: 5%; color: rgb(207, 207, 207); font-size: 70px; text-align: center;" class="material-icons">attach_money</span>
+                    <h1 class="para-islem-header">Kasadan Para Çek</h1>
+                    <input id="CekilenMiktar" type="number" class="input-emlak" placeholder="Miktar Girin">
+                    <button id="ParaCek" class="button-paracekyatir">Para Çek</button>
+                </div>
+            </div>
+
+            <div class="emlak-ad-degistir">
+                <div class="emlak-degistir-menu">
+                    <h1 class="baslik">Emlak Adını Değiştirin</h1>
+                    <input id="OrospuSeda" type="text" placeholder="Kopernik Emlak" class="input-degistir" max="23">
+                    <button id="ChangeNameEmlaq" class="degistir-isim">Emlak Adını Değiştir</button>
+                    <p class="gg">Emlak Dükkanı'nızın isim değiştirme ücreti <b>$<span id="ChangeNamePrice">100</span></b>' dır.</p>
+                </div>
+                <div class="emlak-degistir-menu">
+                    <h1 class="baslik">Emlak Kasa Şifre Değiştirin</h1>
+                    <input id="OrospuSedaTurkcemiz" type="number" placeholder="31" class="input-degistir" max="6">
+                    <button id="ChangePassword" class="degistir-isim">Değiştir</button>
+                    <p class="gg">Kasa Şifresini Hatırlamıyorsanız Değiştirin!</p>
+                </div>
+            </div>
+
+            <div class="karapara-akla">
+                <div class="karapara-main">
+                    <h1 class="karapara-header">Kara Para Akla</h1>
+                    <input id="BlackMoneyCount" type="number" class="input-karapara" placeholder="Aklamak istediğiniz miktarı girin">
+                    <button id="AklaPara" class="button-karapara">Karapara Akla</button>
+                </div>
+            </div>
+        </div>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </body>

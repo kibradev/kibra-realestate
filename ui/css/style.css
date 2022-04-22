@@ -1,0 +1,357 @@
+
+
+.kibra-emlak-password {
+    background: rgb(13, 13, 19);
+    border-radius: .5vh;
+    width: 600px;
+    height: 200px;
+    margin: auto;
+    display: none;
+    margin-top: 15%;
+}
+
+.password-header {
+    position:relative;
+    top: 1%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(228, 228, 228);
+}
+
+.password-input {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(13, 13, 19);
+    position:relative;
+    left: 12%;
+    top: 5%;
+    font-size: 18px;
+    padding: 10px 10px;
+    width: 400px;
+    height: 50px;
+    border: 1px;
+    border-radius: .5vh;
+}
+
+input:focus{
+    outline: 0;
+}
+
+.login-kasa-button {
+    background-color: rgb(0, 89, 255);
+    position:relative;
+    left: 12%;
+    top: 7.8%;
+    width: 60px;
+    height: 50px;
+    color: #fff;
+    border: 1px;
+    cursor: pointer;
+    border-radius: .5vh;
+}
+
+.kibra-emlak-psw-close {
+    position:relative;
+    background-color: #910101;
+    width: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    left: 93%;
+    top: 8%;
+    height: 30px;
+    cursor: pointer;
+    border: 1px;
+    border-radius: .5vh;
+}
+
+.kibra-emlak-psw-close:hover {
+    background-color: #ff5d5d;
+    transition: 0.5s;
+}
+
+.login-kasa-button:hover {
+    background-color: transparent;
+    color:rgb(0, 89, 255);
+    transition: 0.5s;
+    border: 1px solid rgb(0, 89, 255);
+}
+
+.kibra-emlak-managament-menu {
+    background: rgb(13, 13, 19);
+    border: 1px;
+    border-radius: .5vh;
+    width: 700px;
+    display: none;
+    height: 500px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.kibra-emlak-sidebar {
+    background-color: rgb(41, 41, 53);
+    position:relative;
+    left: 2%;
+    top: 2%;
+    width: 95%;
+    height: 15%;
+    border-radius: .5vh;
+}
+
+.kibra-emlak-menu-opt {
+    background: rgb(0, 153, 255);
+    position:relative;
+    left: 3%;
+    cursor: pointer;
+    top: 15%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: .5vh;
+    font-size: 15px;
+    display: inline-block;
+    font-weight: 500;
+    width: 23%;
+    height: 50px;
+    border: 1px;
+}
+
+.kibra-emlak-menu-opt:hover {
+    background: transparent;
+    transition: 0.5s;
+    color: rgb(0, 153, 255);
+    border: 1px solid rgb(0, 153, 255);
+}
+
+.kibra-emlak-para-islem {
+    background-color: rgb(41, 41, 53);
+    position:relative;
+    left: 2%;
+    top: 1%;
+    width: 95%;
+    height: 75%;
+    border-radius: .5vh;
+}
+
+.para-islem-menu {
+    background: rgb(13, 13, 19);
+    position:relative;
+    left: 1%;
+    margin-left: 6%;
+    top: 5%;
+    display: inline-block;
+    width: 40%;
+    height: 80%;
+    border-radius: .5vh;
+    
+}
+
+.para-islem-header {
+    color: rgb(207, 207, 207); 
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.input-emlak {
+    background: rgb(24, 24, 39);
+    position:relative;
+    left: 5%;
+    top: 1%;
+    border-radius: .5vh;
+    width: 90%;
+    height: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(207, 207, 207);
+    border: 1px;
+    padding: 10px 10px;
+}
+
+.button-paracekyatir {
+    background:rgb(0, 153, 255);
+    position:relative;
+    left: 5%;
+    cursor: pointer;
+    top: 5%;
+    border-radius: .5vh;
+    width: 90%;
+    font-weight: 500;
+    font-size: 17px;
+    height: 20%;
+    font-family: 'Roboto', sans-serif;
+    border: 1px;
+}
+
+.button-paracekyatir:hover {
+    background: transparent;
+    color:rgb(0, 153, 255);
+    border: 1px solid rgb(0, 153, 255);
+    transition: 0.5s;
+}
+
+.g {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color:rgb(207, 207, 207);
+    text-align: center;
+}
+
+.emlak-ad-degistir {
+    background-color: rgb(41, 41, 53);
+    position:relative;
+    left: 2%;
+    display: none;
+    top: 4%;
+    width: 95%;
+    height: 75%;
+    border-radius: .5vh;
+}
+
+.emlak-degistir-menu {
+    background: rgb(13, 13, 19);
+    position:relative;
+    margin-left: 1%;
+    left: 3%;
+    top: 8%;
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: .5vh;
+}
+
+.baslik {
+    color:rgb(207, 207, 207);
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    top: 5%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-degistir {
+    background: rgb(27, 27, 39);
+    color: rgb(228, 228, 228);
+    font-size: 18px;
+    position:relative;
+    left: 10%;
+    top: 10%;
+    width: 240px;
+    padding: 10px 10px;
+    height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    border: 1px;
+    border-radius: .5vh;
+}
+
+.degistir-isim {
+    background: rgb(0, 153, 255);
+    position:relative;
+    left: 10%;
+    top: 13%;
+    width: 240px;
+    cursor: pointer;
+    height: 50px;
+    border: 1px;
+    border-radius: .5vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.degistir-isim:hover {
+    background: transparent;
+    border: 1px solid rgb(0, 153, 255);
+    transition: 0.5s;
+    color: rgb(0, 153, 255);
+}
+
+.gg {
+    position:relative;
+    left: 5%;
+    top: 20%;
+    color:rgb(202, 202, 202);
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paramoney {
+    position:relative;
+    left: 34%;
+    top: 5%;
+    font-weight: 500;
+    color:rgb(0, 153, 255);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.karapara-akla {
+    background-color: rgb(41, 41, 53);
+    position:relative;
+    left: 2%;
+    top: 2%;
+    width: 95%;
+    display: none;
+    height: 75%;
+    border-radius: .5vh;
+}
+
+.karapara-main {
+    background-color: rgb(13, 13, 19);
+    position:relative;
+    left: 5%;
+    top: 4%;
+    width: 600px;
+    height: 240px;
+    border-radius: .5vh;
+}
+
+.karapara-header {
+    color: rgb(228, 228, 228);
+    position:relative;
+    left: 31%;
+    top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.input-karapara {
+    background-color: rgb(39, 39, 54);
+    color: rgb(228, 228, 228);
+    position:relative;
+    left: 20%;
+    top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 350px;
+    height: 50px;
+    border-radius: .5vh;
+    border: 1px;
+    padding: 10px 10px;
+}
+
+.button-karapara {
+    background: rgb(0, 153, 255);
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    left: 20%;
+    top: 15%;
+    font-weight: 500;
+    font-size: 17px;
+    width: 350px;
+    cursor: pointer;
+    border-radius: .5vh;
+    border: 1px;
+    height: 50px;
+}
+
+.button-karapara:hover {
+    background-color: transparent;
+    border: 1px solid rgb(0, 153, 255);
+    transition: 0.5s;
+    color: rgb(0, 153, 255);
+}
